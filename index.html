@@ -9,34 +9,41 @@
   </head>
   <body>
     <header>
-      <div class="content">
-        <nav>
-          <p class="brand">dev<strong>superior</strong></p>
-          <ul>
-            <li><a href="#catalog">Catalog</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#feature">Features</a></li>
-            <button>Login</button>
-          </ul>
-        </nav>
-        <div class="header-block">
-          <div class="text">
-            <h2>The perfect car for you</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
-              asperiores?
-            </p>
-          </div>
-          <img src="images/car-header.png" alt="Car" />
-        </div>
+      <div class="logo">
+        <a href="#home">
+          <img class="logo" src="images/car-card.png" alt="Car" />
+        </a>
       </div>
+
+      <div class="brand">
+        <a href="#home">
+          <p class="brand"><strong>Sports</strong>car</p>
+        </a>
+      </div>
+      
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#model">Model</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact-form">Contact</a></li>
+          <div class="nav ul button">
+            <button>Login</button>
+          </div>
+        </ul>
+      </nav>
     </header>
-    <section class="catalog" id="catalog">
+    
+    <section class="home" id="home">
+      <div class="text-title">
+          <h1>The perfect car for you</h1>
+      </div>
+    </section>
+    
+    <section class="catalog" id="model">
+
       <div class="content">
-        <div class="title-wrapper-catalog">
-          <p>Find what you want</p>
-          <h3>Catalog</h3>
-        </div>
         <div class="filter-card">
           <input
             type="text"
@@ -45,104 +52,146 @@
           />
           <button class="search-button">Search</button>
         </div>
+
         <div class="card-wrapper">
-          <div class="card-item">
-            <img src="images/car-card.png" alt="Car" />
-            <div class="card-content">
-              <h3>Audi Supra TT</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellendus.
-              </p>
-              <button type="button">I want this!</button>
+              <div class="card-item">
+                <img src="images/01.McLaren 600LT.jpg" alt="Car" />
+                <div class="card-content">
+                  <h3>McLaren 600LT</h3>
+                  <p>
+                    This is the 600LT. It lives and breathes the relentless spirit of its ‘Longtail’ predecessors..
+                  </p>
+                  <button type="button">I want this!</button>
+                </div>
+              </div>
+              <div class="card-item">
+                <img src="images/02.Toyota Yaris.jpg" alt="Car" />
+                <div class="card-content">
+                  <h3>Toyota Yaris</h3>
+                  <p>
+                    Toyota’s premium cars have been a runaway success in India with the Fortuner,
+                    Innova and the Corolla leading their segments by light years.
+                  </p>
+                  <button type="button">I want this!</button>
+                </div>
+              </div>
+              <div class="card-item">
+                <img src="images/03.Mazda 6.jpg" alt="Car" />
+                <div class="card-content">
+                  <h3>Mazda 6</h3>
+                  <p>
+                    The 2021 Mazda 6 isn't just the prettiest family sedan, it's also more enjoyable to drive and ride in than most of its peers. 
+                  </p>
+                  <button type="button">I want this!</button>
+                </div>
+              </div>
+              <div class="card-item">
+                <img src="images/04.Ford Mustang Shelby GT350.jpg" alt="Car" />
+                <div class="card-content">
+                  <h3>Ford Mustang Shelby GT350</h3>
+                  <p>
+                    Just looking at the Shelby GT350® makes your heart beat faster – a true example of form beautifully following function.
+                  </p>
+                  <button type="button">I want this!</button>
+                </div>
+              </div>
+              <div class="card-item">
+                <img src="images/05.BMW M2.jpg" alt="Car" />
+                <div class="card-content">
+                  <h3>BMW M2</h3>
+                  <p>
+                    Brand new 1/18 scale diecast car model of 2019 BMW M2 Competition Silver Limited Edition to 504 pieces Worldwide die cast model car by Minichamps.
+                  </p>
+                  <button type="button">I want this!</button>
+                </div>
+              </div>
+              <div class="card-item">
+                <img src="images/06.BMW 3-Series.jpg" alt="Car" />
+                <div class="card-content">
+                  <h3>BMW 3-Series</h3>
+                  <p>
+                    The BMW 3 Series is a compact executive car manufactured by the German automaker BMW since May 1975. It has been produced in seven different generations.
+                  </p>
+                  <button type="button">I want this!</button>
+                </div>
+              </div>
+              <div class="card-item">
+                <img src="images/07.Mercedes-Benz C-Class.jpg" alt="Car" />
+                <div class="card-content">
+                  <h3>Mercedes-Benz C-Class</h3>
+                  <p>
+                    Pump up the muscle with the AMG Line: AMG styling and wheels, a diamond-block grille, plus sport chassis and cabin upgrades. A new Night Edition takes it even further.
+                  </p>
+                  <button type="button">I want this!</button>
+                </div>
+              </div>
+              <div class="card-item">
+                <img src="images/08.BMW M5.jpg" alt="Car" />
+                <div class="card-content">
+                  <h3>BMW M5</h3>
+                  <p>
+                    The standard model M5 comes with a host of features, including a 4.4-liter twin-turbo V8 producing 600 hp and 553 lb-ft of torque, all of which is directed through an eight-speed.
+                  </p>
+                  <button type="button">I want this!</button>
+                </div>
+              </div>
+              <div class="card-item">
+                <img src="images/09.Kia Cadenza.jpg" alt="Car" />
+                <div class="card-content">
+                  <h3>Kia Cadenza</h3>
+                  <p>
+                    The updated Cadenza now sports LED headlights and taillights, 18-inch alloy wheels, a redesigned instrument cluster with a 4.2-inch information display. Experience the feeling of driving.
+                  </p>
+                  <button type="button">I want this!</button>
+                </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="content">
+        <div class="feature-card-block">
+          <div class="feature-card-item">
+            <img src="images/Panoramic glass roof.jpg" alt="Feature" />
+            <div class="feature-text-content">
+              <h3>Panoramic glass roof</h3>
+              <p>Panoramic sunroofs allow the sunshine to enter the cabin where you're sitting, which helps improves your overall mood.</p>
             </div>
           </div>
-          <div class="card-item">
-            <img src="images/car-card.png" alt="Car" />
-            <div class="card-content">
-              <h3>Audi Supra TT</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellendus.
-              </p>
-              <button type="button">I want this!</button>
+          <div class="feature-card-item">
+            <img src="images/Full LED headlamps.jpg" alt="Feature" />
+            <div class="feature-text-content">
+              <h3>Full LED headlamps</h3>
+              <p>High beam (main beam and driving) headlamps provide a bright, center-weighted distribution of light.</p>
             </div>
           </div>
-          <div class="card-item">
-            <img src="images/car-card.png" alt="Car" />
-            <div class="card-content">
-              <h3>Audi Supra TT</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellendus.
-              </p>
-              <button type="button">I want this!</button>
+          <div class="feature-card-item">
+            <img src="images/Start-Stop.jpg" alt="Feature" />
+            <div class="feature-text-content">
+              <h3>Intelligent Stop/Start</h3>
+              <p>The auto-stop / start technology which increases the number of starts in an average commute by 100x.</p>
             </div>
           </div>
-          <div class="card-item">
-            <img src="images/car-card.png" alt="Car" />
-            <div class="card-content">
-              <h3>Audi Supra TT</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellendus.
-              </p>
-              <button type="button">I want this!</button>
+          <div class="feature-card-item">
+            <img src="images/Adaptive Dynamics.jpg" alt="Feature" />
+            <div class="feature-text-content">
+              <h3>Adaptive Dynamics</h3>
+              <p>This feature constantly monitors the vehicle’s movements while it’s hitting roads, along with the driver’s actions.</p>
             </div>
           </div>
-          <div class="card-item">
-            <img src="images/car-card.png" alt="Car" />
-            <div class="card-content">
-              <h3>Audi Supra TT</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellendus.
-              </p>
-              <button type="button">I want this!</button>
+          <div class="feature-card-item">
+            <img src="images/Smart-key.jpg" alt="Feature" />
+            <div class="feature-text-content">
+              <h3>Smart Key System - Keyless Start</h3>
+              <p>Smart Key® is an innovative key system that uses a high-tech keychain that allows you to lock or unlock the doors.</p>
             </div>
           </div>
-          <div class="card-item">
-            <img src="images/car-card.png" alt="Car" />
-            <div class="card-content">
-              <h3>Audi Supra TT</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellendus.
-              </p>
-              <button type="button">I want this!</button>
-            </div>
-          </div>
-          <div class="card-item">
-            <img src="images/car-card.png" alt="Car" />
-            <div class="card-content">
-              <h3>Audi Supra TT</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellendus.
-              </p>
-              <button type="button">I want this!</button>
-            </div>
-          </div>
-          <div class="card-item">
-            <img src="images/car-card.png" alt="Car" />
-            <div class="card-content">
-              <h3>Audi Supra TT</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellendus.
-              </p>
-              <button type="button">I want this!</button>
-            </div>
-          </div>
-          <div class="card-item">
-            <img src="images/car-card.png" alt="Car" />
-            <div class="card-content">
-              <h3>Audi Supra TT</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellendus.
-              </p>
-              <button type="button">I want this!</button>
+          <div class="feature-card-item">
+            <img src="images/Parking-aid-systems.jpg" alt="Feature" />
+            <div class="feature-text-content">
+              <h3>Front and rear parking aids</h3>
+              <p>Parking aid systems use ultrasonic sensors to monitor the area directly in front and behind the vehicle.</p>
             </div>
           </div>
         </div>
@@ -150,119 +199,89 @@
     </section>
 
     <section class="about" id="about">
-      <div class="content">
-        <div class="title-wrapper-about">
-          <p>Know about us</p>
-          <h3>About</h3>
-        </div>
+      <div class="content-model">
         <div class="about-content">
-          <div class="left">
-            <img src="images/about.png" alt="About" />
-          </div>
-          <div class="right">
+          <div class="about-content-title">
             <h3>Join technology and mobility</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae ut inventore magni repellendus ab ad itaque facere. A
-              tenetur quam, nobis tempore illum laborum ipsa fuga, itaque
-              possimus repellat ad perspiciatis, velit reiciendis eos facilis
-              sapiente blanditiis quas officia hic beatae quibusdam! Quod
-              eligendi porro possimus voluptatum ad ipsum sapiente soluta,
-              maiores nobis tenetur adipisci officiis nisi illum quae natus
-              nostrum tempora accusantium blanditiis? Rem nesciunt illum
-              dolorum, perferendis quos consequatur suscipit cumque fugiat alias
-              sint repellat qui adipisci error est distinctio doloribus labore
-              sunt modi eos odio quibusdam dicta. Dignissimos voluptate illum
-              possimus quo. Ducimus repellat doloribus quisquam quidem?
+          </div>
+            <p class="about-content-text">
+              The best sports cars come in all shapes, sizes, and prices. No matter your particular tastes, we’re sure you can find something on this list of best sports cars of 2020 that will fulfill your craving for speed and performance.
+              If you're looking for a drop-top sports car, consider the new BMW Z4, which is built alongside the Supra in Austria and shares the same underpinnings and powertrain. Despite sharing numerous parts, Toyota was able to give its version a personality all its own, which helped the Supra a spot on our 2020 10Best list.
             </p>
-          </div>
+            <p class="about-content-text">
+              The eighth-generation Corvette (a.k.a. C8) now boasts an engine behind the passenger cabin, just like the best from Porsche, Ferrari, and McLaren but at many thousands of dollars less. Incredibly, the base C8's pricing starts at $59,995, making it a relative bargain. Available as either a coupe with a removable roof panel or a convertible with a retractable hard top, the revolutionary Chevy has a 6.2-liter V-8 making 490 horsepower that endows it with supercar performance.
+            </p>
+            <p class="about-content-text">
+              There's no point in wasting dreams or money on supercars when the 10Best-winning 2020 Porsche 718 Cayman provides a similarly stellar experience at a huge discount. Despite being near the bottom of the Porsche pyramid, the Cayman coupe and Boxster convertible (reviewed separately) are enthralling machines that provide unrivaled feedback to the driver. Its expertly tuned chassis is supplemented by three distinct flat-four-cylinder engines and either a trusty manual or telepathic automatic transmission. Every Cayman can be personalized with countless individual options and even retains a compliant ride when not racing down roads. Sure, its coarse engine notes and uninspired interior are drawbacks, but the 2020 Cayman isn't a wannabe supercar—it's just an attainable one.
+            </p>
         </div>
       </div>
     </section>
 
-    <section class="features" id="features">
-      <div class="content">
-        <div class="title-wrapper-features">
-          <p>What you can do</p>
-          <h3>Features</h3>
-        </div>
-        <div class="feature-card-block">
-          <div class="feature-card-item">
-            <img src="images/feature-planet.png" alt="Feature" />
-            <div class="feature-text-content">
-              <h3>Title</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </div>
+    <section id="contact-form">
+      <div class="contact-form-div"></div>
+      <div class="contact-form">
+        <form method="post" action="sand_data.php">
+          <p>Send your message by filling out the form below</p>
+          <div class="field">
+              <label for="nome">Name:</label>
+              <input type="text" id="name" name="name" placeholder="Type your name*" required>
           </div>
-          <div class="feature-card-item">
-            <img src="images/feature-planet.png" alt="Feature" />
-            <div class="feature-text-content">
-              <h3>Title</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </div>
+          <div class="field">
+              <label for="telephone">Telephone:</label>
+              <input type="text" id="telephone" name="telephone" placeholder="Enter your Phone">
           </div>
-          <div class="feature-card-item">
-            <img src="images/feature-planet.png" alt="Feature" />
-            <div class="feature-text-content">
-              <h3>Title</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </div>
+          <div class="field">
+              <label for="email">E-Mail:</label>
+              <input type="email" id="email" name="email" placeholder="Enter your E-Mail*" required>
           </div>
-          <div class="feature-card-item">
-            <img src="images/feature-planet.png" alt="Feature" />
-            <div class="feature-text-content">
-              <h3>Title</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </div>
+          <span class="span-radiobox">Do you want to receive our news?</span>
+          <div class="field-radiobox">
+              <input type="radio" name="news" id="yes" value="yes" checked><label for="yes">Yes</label>
+              <input type="radio" name="news" id="no" value="no"><label for="no">No</label>
           </div>
-          <div class="feature-card-item">
-            <img src="images/feature-planet.png" alt="Feature" />
-            <div class="feature-text-content">
-              <h3>Title</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </div>
+          <div class="field">
+              <label for="mensagem">Message:</label>
+              <textarea name="message" id="message" placeholder="Message*" required></textarea>
           </div>
-          <div class="feature-card-item">
-            <img src="images/feature-planet.png" alt="Feature" />
-            <div class="feature-text-content">
-              <h3>Title</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </div>
-          </div>
-        </div>
+          <input type="submit" name="action" value="send">
+        </form>
       </div>
     </section>
 
-    <footer>
-      <div class="main">
-        <div class="content footer-links">
-          <div class="footer-company">
-            <h4>Company</h4>
-            <h6>About</h6>
-            <h6>Contact</h6>
-          </div>
-          <div class="footer-rental">
-            <h4>Rental</h4>
-            <h6>Self-Drive</h6>
-            <h6>Chauffer-Driven</h6>
-            <h6>Help</h6>
-          </div>
-          <div class="footer-social">
-            <h4>Stay connected</h4>
-            <div class="social-icons">
-              <img src="images/instagram.png" alt="Instagram" />
-              <img src="images/facebook.png" alt="Facebook" />
+    <section id="contact">
+      <footer>
+        <div class="main">
+          <div class="content footer-links">
+            <div class="footer-company">
+              <h4>Company</h4>
+              <h6><a href="#about">About</a></h6>
+              <h6><a href="#contact-form">Contact</a></h6>
+            </div>
+            <div class="footer-rental">
+              <h4>Rental</h4>
+              <h6>Self-Drive</h6>
+              <h6>Chauffer-Driven</h6>
+              <h6>Help</h6>
+            </div>
+            <div class="footer-social">
+              <h4>Stay connected</h4>
+              <div class="social-icons">
+                <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" alt="Instagram" /></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="Facebook" /></a>
+              </div>
+            </div>
+            <div class="footer-contact">
+              <h4>Contact US</h4>
+              <h6>+55 31 988776655</h6>
+              <h6>contato@sportcar.com</h6>
+              <h6>Detroid, MI 460817</h6>
             </div>
           </div>
-          <div class="footer-contact">
-            <h4>Contact US</h4>
-            <h6>+55 31 988776655</h6>
-            <h6>contato@devsuperior.com.br</h6>
-            <h6>Nome da Rua, belo horizonte MG</h6>
-          </div>
         </div>
-      </div>
-      <div class="last">DevSuperior 2021 - Use like you want</div>
-    </footer>
+        <div class="last">SportCar 2021 - Copyright</div>
+      </footer>
+    </section>
+
   </body>
 </html>
